@@ -1,0 +1,5 @@
+workspaces:
+  - reactivity
+  - dom
+  - app
+  - react-app

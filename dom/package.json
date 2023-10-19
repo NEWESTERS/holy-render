@@ -1,0 +1,21 @@
+{
+  "name": "@holy-render/dom",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./jsx-runtime": {
+      "types": "./lib/jsx-runtime/index.d.ts",
+      "import": "./lib/jsx-runtime/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "@holy-render/reactivity": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "@holy-render/reactivity": "workspace:*"
+  }
+}
